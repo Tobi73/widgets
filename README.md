@@ -81,7 +81,7 @@ DELETE /api/v1/widgets/375eecb2-2c12-4bc7-abf4-68e2d63b4f57
 2. This README.MD. It lacks description of internal implementation.
 3. Pagination. Pagination is not very efficient as it traverses entries until it reaches those that are specified by offset. Having cursor-based pagination would be much better.
 5. Logging. Requests and business operations are not logged.
-6. Tests. No tests for controller and service.
+6. Tests. No tests for service and VERY basic tests for controller.
 7. Lack of documentation. 
 8. No metrics & healthchecks.
 9. Not Cloud ready - no Dockerfile/k8s spec/Helm chart.
